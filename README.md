@@ -20,7 +20,8 @@ Utilização de imagens com figure e figcaption;
 Elementos interativos com details e summary;
 Marcação avançada de texto;
 Organização de arquivos e pastas.
-📄 Páginas
+
+Páginas
 Início: apresenta o Valorant e o campeonato Champions 2026;
 Times: mostra os 16 times classificados e os resultados;
 Agentes: lista os agentes mais escolhidos no campeonato;

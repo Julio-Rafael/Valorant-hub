@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Valorant Champions Hub: tudo sobre o VALORANT e o campeonato mundial VALORANT Champions Shanghai 2026.">
+     <meta name="author" content="Julio Rafael">
+    <title>valorant Champions hub</title>
+</head>
+<body>
+    <header>
+        <!--Cabeçalho: igual em todas as paginas-->
+        <h1>Valorant Champions hub</h1>
+        <p>O portal sobre Valorant Champions Shanghai 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="times.html">Times</a></li>
+            <li><a href="agentes.html">Agentes</a></li>
+            <li><a href="armas.html">Armsa</a></li>
+            <li><a href="jogadores.html">Jogadores</a></li>
+        </ul>
+    </nav>
+    <hr>
+    
+    <main>
+        <section>
+            <h2>Jogadores do Champions 2026</h2>
+            <p>
+                São <mark>80 jogadores</mark> titulares em Xangai. Destes, 36 fazem sua
+                estreia em um Champions. O mais novo é <strong>GSR</strong> (Team Liquid), com
+                18 anos, e o mais velho é <strong>babybay</strong> (G2 Esports), com 31.
+            </p>
+
+            <!-- IMAGEM: local reservado para foto dos jogadores -->
+            <figure>
+                <img src="../imagem/images.jpg" alt="Jogadores no palco do Champions 2026" width="600">
+                <figcaption>Figura 1 – Jogadores no palco em Xangai.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Elencos por região</h2>
+
+            <article>
+                <h3>Américas</h3>
+                <table>
+                    <thead><tr><th>Time</th><th>Jogadores</th></tr></thead>
+                    <tbody>
+                        <tr><td>100 Thieves</td><td>Asuna, bang, Cryocells, vora, Timotino</td></tr>
+                        <tr><td>LOUD</td><td>Darker, DaviH, lukxo, erde, tkzin</td></tr>
+                        <tr><td>NRG</td><td>brawk, mada, skuba, Ethan, keiko</td></tr>
+                        <tr><td>G2 Esports</td><td>babybay, valyn, jawgemo, leaf, trent</td></tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3><abbr title="Europa, Oriente Médio e África">EMEA</abbr></h3>
+                <table>
+                    <thead><tr><th>Time</th><th>Jogadores</th></tr></thead>
+                    <tbody>
+                        <tr><td>Karmine Corp</td><td>SUYGETSU, avez, dos9, LewN, N4RRATE</td></tr>
+                        <tr><td>Team Liquid</td><td>nAts, trexx, Kicks, kamo, GSR</td></tr>
+                        <tr><td>FUT Esports</td><td>sociablEE, yetujey, xeus, KROSTALY, s0pp</td></tr>
+                        <tr><td>Team Vitality</td><td>Chronicle, Derke, PROFEK, Jamppi, Sayonara</td></tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>Pacífico</h3>
+                <table>
+                    <thead><tr><th>Time</th><th>Jogadores</th></tr></thead>
+                    <tbody>
+                        <tr><td>Global Esports</td><td>Autumn, UdoTan, Kr1stal, xavi8k, PatMen</td></tr>
+                        <tr><td>Nongshim RedForce</td><td>Rb, Dambi, Francis, Ivy, Xross</td></tr>
+                        <tr><td>Paper Rex</td><td>Jinggg, invy, f0rsakeN, d4v41, something</td></tr>
+                        <tr><td>T1</td><td>stax, BuZz, Munchkin, Meteor, iZu</td></tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h3>China</h3>
+                <table>
+                    <thead><tr><th>Time</th><th>Jogadores</th></tr></thead>
+                    <tbody>
+                        <tr><td>TYLOO</td><td>SiuFatBB, splash, Scales, slowly, Erv</td></tr>
+                        <tr><td>JD Gaming</td><td>jkuro, BerLIN, Yuicaw, zhe, crownfisher</td></tr>
+                        <tr><td>EDward Gaming</td><td>nobody, ZmjjKK, Smoggy, CHICHOO, stew, Jieni7</td></tr>
+                        <tr><td>Xi Lai Gaming</td><td>NoMan, Rarga, WsLeo, Lysoar, happywei</td></tr>
+                    </tbody>
+                </table>
+                <p><small>A EDward Gaming inscreveu 6 jogadores.</small></p>
+            </article>
+        </section>
+
+        <!-- FORMULÁRIO AVANÇADO -->
+        <section>
+            <h2>Vote no MVP do Champions</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </p>
+
+                    <p>
+                        <label for="nascimento">Data de nascimento:</label><br>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Seu voto</legend>
+
+                    <p>
+                        <label for="jogador">Jogador favorito ao MVP:</label><br>
+                        <input list="lista-jogadores" id="jogador" name="jogador" placeholder="Comece a digitar um nick" required>
+                        <datalist id="lista-jogadores">
+                            <option value="tkzin">
+                            <option value="Ethan">
+                            <option value="Asuna">
+                            <option value="Derke">
+                            <option value="something">
+                            <option value="Dambi">
+                            <option value="ZmjjKK">
+                            <option value="avez">
+                            <option value="Jinggg">
+                            <option value="nAts">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="time">Time que será campeão:</label><br>
+                        <select id="time" name="time" required>
+                            <option value="">Selecione</option>
+                            <option>100 Thieves</option>
+                            <option>LOUD</option>
+                            <option>NRG</option>
+                            <option>G2 Esports</option>
+                            <option>Karmine Corp</option>
+                            <option>Team Liquid</option>
+                            <option>FUT Esports</option>
+                            <option>Team Vitality</option>
+                            <option>Global Esports</option>
+                            <option>Nongshim RedForce</option>
+                            <option>Paper Rex</option>
+                            <option>T1</option>
+                            <option>TYLOO</option>
+                            <option>JD Gaming</option>
+                            <option>EDward Gaming</option>
+                            <option>Xi Lai Gaming</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="confianca">Nível de confiança no palpite (0 a 10):</label><br>
+                        <input type="range" id="confianca" name="confianca" min="0" max="10" value="5">
+                    </p>
+
+                    <p>
+                        <label for="cor">Cor da sua torcida:</label><br>
+                        <input type="color" id="cor" name="cor" value="#ff4655">
+                    </p>
+
+                    <p>
+                        <label for="arte">Envie uma fan art (opcional):</label><br>
+                        <input type="file" id="arte" name="arte" accept="image/*">
+                    </p>
+
+                    <p>
+                        <label for="comentario">Comentário:</label><br>
+                        <textarea id="comentario" name="comentario" rows="4" cols="40" placeholder="Por que esse jogador merece o MVP?"></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar voto</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <p>&copy; 2026 Valorant Champions Hub – Projeto acadêmico de HTML5 | Equipe InovaTech</p>
+        <p>
+            Navegue: <a href="../index.html">Início</a> |
+            <a href="times.html">Times</a> |
+            <a href="agentes.html">Agentes</a> |
+            <a href="armas.html">Armas</a> |
+            <a href="jogadores.html">Jogadores</a>
+        </p>
+        <p><small>Site sem fins comerciais. VALORANT é marca da Riot Games.</small></p>
+    </footer>
+
+</body>
+</html>
